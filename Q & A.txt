@@ -1,0 +1,28 @@
+Project 6
+
+1.  Convert a String from uppercase to lowercase ✔	
+
+2. How are these different?
+ 
+  a = “Bob”
+  
+  : perhaps the easiest way to create a string is to simply assign a string to a variable name. 
+  Ruby then takes care of the rest for you as in the above. 
+  
+  b = String.new(“Bob”)
+  
+  :In the above a new string is created and initialized by passing through a string as an argument to the new method.
+ 
+3. Replace all the a’s in this sentence with x’s ✔	
+   “Mary had a little lamb” i.e. “Mxry hxd x little lxmb”
+   
+4. Convert a String to an Array of Characters ✔	
+   i.e. “Bob” [‘B’,’o’,’b’]
+   
+5. How is “gsub” different from “gsub!”? ✔	
+"gsub" returns a string and "gsub!" returns either a string or nil.
+
+6. How is ‘bob’ different from :bob ? ✔	
+
+The truth of the matter is that Symbols are Strings, just with an important difference, 
+Symbols are immutable. Mutable objects can be changed after assignment while immutable objects can only be overwritten. 
