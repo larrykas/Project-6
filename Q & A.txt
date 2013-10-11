@@ -20,7 +20,7 @@ Project 6
    i.e. “Bob” [‘B’,’o’,’b’]
    
 5. How is “gsub” different from “gsub!”? ✔	
-"gsub" returns a string and "gsub!" returns either a string or nil.
+"gsub!" is important because it modifies the existing object.
 
 6. How is ‘bob’ different from :bob ? ✔	
 
